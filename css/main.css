@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #201b2d;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    color: #fff;
+    background: rgb(78,190,254);
+    background: -moz-linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ebefe",endColorstr="#378fd9",GradientType=1);
+    padding-top: 62px;
+    padding-bottom: 70px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 130px;
+    width: 585px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    margin-top: 34px;
+    margin-bottom: 45px;
+    width: 400px;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: #ffd429;
+    color: #fff;
+    display: block;
+    width: 222px;
+    padding: 21px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #e6bf24;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.section-title,
+.item-title,
+.item-text {
+    text-align: center
+}
+
+.future {
+    padding-top: 96px;
+    padding-bottom: 110px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.item {
+    width: 289px;
+    background: url("../img/icon1.png") no-repeat top;
+    padding-top: 86px;
+}
+
+.item-travel {
+    width: 270px;
+    background: url("../img/icon2.png") no-repeat top;
+}
+
+.item-life {
+    background: url("../img/icon3.png") no-repeat top;
+}
+
+.item-title {
+    font-size: 19px;
+}
+
+.item-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.subscription {
+    background-color: #ecf3f8;
+    padding: 100px 0;
+}
+
+.form {
+    margin-top: 52px;
+}
+
+.input {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 343px;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    padding-left: 24px;
+    /*margin-bottom: 16px;*/
+    margin: 16px auto 0;
+    display: block;
+}
+
+.btn-submit {
+    color: #2e2a1b;
+    width: 343px;
+    margin: 15px auto 0;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #164d7a;
+    padding: 60px 0;
+}
+
+.credits {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}

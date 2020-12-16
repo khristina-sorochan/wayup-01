@@ -177,3 +177,81 @@ p {
     color: #fff;
     text-align: center;
 }
+
+
+/*Responsive*/
+
+/* XL: 993px - 1300px */
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 960px;
+    }
+    .travel {
+        width: auto;
+    }
+    .offer {
+        width: 440px;
+    }
+}
+
+/* LG: 769px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .travel {
+        background: url("../img/travel.png") no-repeat bottom;
+        height: 1075px;
+        margin-top: 130px;
+        align-items: flex-start;
+    }
+    .offer {
+        width: auto;
+    }
+    .intro {
+        width: 540px;
+    }
+    .item {
+        width: 190px;
+    }
+}
+
+/* MD: 577px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .items {
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    .item-text {
+        margin-top: 0;
+    }
+}
+
+/* SM: 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .travel {
+        background-size: 100% auto;
+        height: 1000px;
+    }
+    .intro {
+        width: auto;
+    }
+    .input {
+        padding-left: 10px;
+    }
+    .input,
+    .btn-submit {
+        width: 100%;
+    }
+}
+

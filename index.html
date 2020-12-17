@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 <header id="header" class="header">
@@ -15,7 +16,7 @@
     </div>
     <div class="travel">
         <div class="container">
-            <div class="offer">
+            <div class="offer animate__animated animate__fadeInLeft">
                 <h1 class="title">
                     С помощью верстки <br>
                     я создам ту жизнь, о которой
@@ -33,9 +34,9 @@
 </header>
 <section id="future" class="future">
     <div class="container">
-        <h2 class="section-title">Что меня ждет впереди</h2>
+        <h2 class="section-title animate__animated">Что меня ждет впереди</h2>
         <div class="items">
-            <div class="item">
+            <div class="item animate__animated">
                 <h3 class="item-title">
                     Свободное время
                 </h3>
@@ -44,7 +45,7 @@
                     и самое настоящее
                 </p>
             </div>
-            <div class="item item-travel">
+            <div class="item item-travel animate__animated">
                 <h3 class="item-title">
                     Яркие путишествия
                 </h3>
@@ -53,7 +54,7 @@
                     быть лучше?
                 </p>
             </div>
-            <div class="item item-life">
+            <div class="item item-life animate__animated">
                 <h3 class="item-title">
                     Создание ценности
                 </h3>
@@ -67,8 +68,8 @@
 </section>
 <section id="subscription" class="subscription">
     <div class="container">
-        <h2 class="section-title">Форма заказа билета в будущее</h2>
-        <form action="#" class="form">
+        <h2 class="section-title animate__animated">Форма заказа билета в будущее</h2>
+        <form action="#" class="form animate__animated">
             <input type="text" name="name" class="input" placeholder="Имя" required>
             <input type="email" name="email" class="input" placeholder="E-mail" required>
             <input type="tel" name="phone" class="input" placeholder="Телефон" required>
@@ -84,5 +85,7 @@
         </p>
     </div>
 </footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
